@@ -18,7 +18,7 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 setup(
-    name='webthing-ws-api',
+    name='webthing-ws',
     version='0.1.0',
     description='A WebThing WebSocket consumer and API client.',
     long_description=long_description,
