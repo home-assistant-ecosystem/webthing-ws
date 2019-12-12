@@ -5,7 +5,7 @@ import aiohttp
 
 from webthing_ws import WebThing
 
-URL = 'http://localhost'
+URL = "http://localhost"
 PORT = 8888
 
 
@@ -28,6 +28,7 @@ async def main():
         # Start the WebSocket consumer and print the sensor value of a WebThing sensor
         print("Sensor values:")
         await thing.start_websocket_consumer()
+
 
 loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
