@@ -1,4 +1,4 @@
-"""Exceptions for WebThing WS."""
+"""Exceptions for the WebThing WebSocket consumer and API client."""
 
 
 class WebThingWsError(Exception):
