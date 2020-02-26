@@ -12,6 +12,12 @@ The module is available from the `Python Package Index <https://pypi.python.org/
 
     $ pip3 install webthing-ws
 
+On a Fedora-based system.
+
+.. code:: bash
+
+    $ sudo dnf -y install webthing-ws
+
 Usage
 -----
 
