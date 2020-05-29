@@ -12,7 +12,7 @@ The module is available from the `Python Package Index <https://pypi.python.org/
 
     $ pip3 install webthing-ws
 
-On a Fedora-based system.
+On a Fedora-based system or on a CentOS/RHEL host with EPEL 8.
 
 .. code:: bash
 
