@@ -16,7 +16,7 @@ On a Fedora-based system or on a CentOS/RHEL host with EPEL 8.
 
 .. code:: bash
 
-    $ sudo dnf -y install webthing-ws
+    $ sudo dnf -y install python3-webthing-ws
 
 Usage
 -----
