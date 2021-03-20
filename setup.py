@@ -15,7 +15,7 @@ with open(os.path.join(here, "README.rst"), encoding="utf-8") as readme:
 
 setup(
     name="webthing-ws",
-    version="0.1.0",
+    version="0.1.1",
     description="A WebThing WebSocket consumer and API client.",
     long_description=long_description,
     url="https://github.com/home-assistant-ecosystem/webthing-ws",
