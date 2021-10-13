@@ -28,6 +28,7 @@ setup(
         "async_timeout<4",
     ],
     packages=["webthing_ws"],
+    python_requires='>=3.8',
     zip_safe=True,
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -37,8 +38,8 @@ setup(
         "Operating System :: MacOS :: MacOS X",
         "Operating System :: Microsoft :: Windows",
         "Operating System :: POSIX",
-        "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
         "Topic :: Utilities",
     ],
 )
