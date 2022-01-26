@@ -12,7 +12,7 @@ PORT = 8888
 async def main():
     """Sample code to retrieve information and the data from a WebThing."""
     async with aiohttp.ClientSession() as session:
-        thing = WebThing(URL, loop, session, port=PORT)
+        thing = WebThing(URL, session, port=PORT)
 
         # Get the WebThing's description.
         await thing.get_description()

@@ -16,9 +16,8 @@ _LOGGER = logging.getLogger(__name__)
 class WebThing:
     """Representation of a WebThing."""
 
-    def __init__(self, url, loop, session, port=80):
+    def __init__(self, url, session, port=80):
         """Initialize the connection to the WebThing."""
-        self._loop = loop
         self._session = session
         self.data = None
         self._description = None
@@ -30,7 +29,7 @@ class WebThing:
     async def get_description(self):
         """Get details of a WebThing."""
         try:
-            async with async_timeout.timeout(5, loop=self._loop):
+            async with async_timeout.timeout(5):
                 response = await self._session.get(f"{self.base_url}:{self.port}")
 
             _LOGGER.info("Response from WebThing: %s", response.status)
@@ -71,7 +70,7 @@ class WebThing:
                 webthing_property = url_part.split("/")[-1]
 
                 try:
-                    async with async_timeout.timeout(5, loop=self._loop):
+                    async with async_timeout.timeout(5):
                         response = await self._session.get(
                             f"{self.base_url}:{self.port}{url_part}"
                         )
