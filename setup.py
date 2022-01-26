@@ -21,7 +21,7 @@ setup(
     license="MIT",
     install_requires=[
         "aiohttp>=3.7.4,<4",
-        "async_timeout<4",
+        "async_timeout",
     ],
     packages=["webthing_ws"],
     python_requires='>=3.8',
