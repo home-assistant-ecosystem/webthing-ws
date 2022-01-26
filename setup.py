@@ -1,12 +1,8 @@
 #!/usr/bin/env python3
 """Setup file for WebThing WS."""
 import os
-import sys
+from setuptools import setup
 
-try:
-    from setuptools import setup
-except ImportError:
-    from distutils.core import setup
 
 here = os.path.abspath(os.path.dirname(__file__))
 
