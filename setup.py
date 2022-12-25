@@ -24,7 +24,7 @@ setup(
         "async_timeout",
     ],
     packages=["webthing_ws"],
-    python_requires='>=3.9',
+    python_requires=">=3.9",
     zip_safe=True,
     classifiers=[
         "Development Status :: 3 - Alpha",
