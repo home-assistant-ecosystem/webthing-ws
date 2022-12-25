@@ -18,6 +18,13 @@ On a Fedora-based system or on a CentOS/RHEL host with EPEL 8.
 
     $ sudo dnf -y install python3-webthing-ws
 
+For Nix or NixOS users is a package available. Keep in mind that the lastest releases might only
+be present in the ``unstable`` channel.
+
+.. code:: bash
+
+    $ nix-env -iA nixos.python3Packages.webthing-ws
+
 Usage
 -----
 
