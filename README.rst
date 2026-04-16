@@ -1,7 +1,7 @@
 webthing-ws
 ===========
 
-A  `WebThing <https://iot.mozilla.org/wot/>`_ WebSocket consumer and API client.
+A  `WebThing <https://webthings.io/>`_ WebSocket consumer and API client.
 
 Installation
 ------------
