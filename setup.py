@@ -20,7 +20,7 @@ setup(
     author_email="fabian@affolter-engineering.ch",
     license="MIT",
     install_requires=[
-        "aiohttp>=3.8.0,<4",
+        "aiohttp>=3.13.0,<4",
         "async_timeout",
     ],
     packages=["webthing_ws"],
